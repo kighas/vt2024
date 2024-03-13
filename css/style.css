@@ -36,13 +36,15 @@ min-height: 50rem;
 flex-direction: column;
 }
 aside{
+display:block;
 grid-area: as;
 background-color: whitesmoke;
+width: 30rem;
 }
 footer{
 grid-area: ft;
 background-color: rgb(53, 110, 209);
-height: 3rem;
+height: 10rem;
 }
 #logo{
 height: 3rem;
@@ -63,22 +65,50 @@ h2{
 padding: 1rem 1rem 0rem 1rem;
 }
 #nyhet1, #nyhet2{
-    height: 50rem;
-    width: 90%;
+    background-color: whitesmoke;
+    height: auto;
+    width: 60%;
     align-self: center;
     margin: 3rem;
 }
-#nyhet1{
-    background-color: whitesmoke;
+#nyhet3, #nyhet4, #nyhet5{
+    background-color: blue;
+height: 15rem;
+width: 80%;
+margin: 3rem;
+align-self: center;
 }
-#nyhet2{
-    background-color: whitesmoke;
+#apple_vision{
+height: auto;
+width: 100%;
 }
-
+h3{
+font-size: 3rem;
+    padding:1rem 2rem 1rem 2rem;
+}
+h3:hover{
+text-decoration:underline;
+}
 @media screen and (max-width:600px){
-
-main{
-    background-color:aquamarine;
+#wrapper{
+    grid-template-areas: 
+    'hd'
+    'nv'
+    'mn'
+    'ft';
+}
+aside{
+display:none;
+}
+#nyhet1, #nyhet2{
+width: 80%;
+}
+h2{
+font-size: 2rem;
+padding: 2rem 0rem 0rem 3rem;
+}
+h3{
+font-size: 2rem;
 }
 #hamburger{
     height: 1.8rem;
