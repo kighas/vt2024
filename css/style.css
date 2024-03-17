@@ -65,7 +65,7 @@ nav ul li a{
 nav ul li{
     list-style: none;
 }
-nav ul li a:hover{
+nav ul li a:hover, header a:hover{
     color:rgb(229, 238, 255);
 }
 h2{
@@ -97,6 +97,14 @@ h4{
     font-size: 1.3rem;
     padding: 0.5rem;
 }
+h5{
+    font-size: 4rem;
+    padding: 2rem 2rem 0rem 2rem;
+}
+p{
+font-size: 2rem;
+padding: 2rem;    
+}
 h3:hover, h4:hover{
 text-decoration:underline;
 }
@@ -104,7 +112,9 @@ a{
     color:black;
     text-decoration: none;
 }
-
+#apple_vision_nyhet{
+    width: 80rem;
+}
 @media screen and (max-width:600px){
 #wrapper{
     grid-template-areas: 
