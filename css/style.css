@@ -80,7 +80,7 @@ padding: 1rem 1rem 0rem 1rem;
 }
 #nyhet3, #nyhet4, #nyhet5{
     background-color: white;
-height: 20rem;
+min-height: 20rem;
 width: 80%;
 margin: 3rem;
 align-self: center;
@@ -90,8 +90,8 @@ height: auto;
 width: 100%;
 }
 h3{
-font-size: 3rem;
-    padding:1rem 2rem 1rem 2rem;
+font-size: 2rem;
+padding: 1rem 1rem 2rem 1rem;
 }
 h4{
     font-size: 1.3rem;
@@ -113,7 +113,23 @@ a{
     text-decoration: none;
 }
 #apple_vision_nyhet{
-    width: 80rem;
+    width: 75rem;
+}
+.senaste1, .senaste, .senaste2{
+    display: flex;
+    width: 74rem;
+    height: 20rem;
+}
+.senaste1 p, .senaste p, .senaste2 p{
+font-size: 1.5rem;
+color:gray;
+}
+.senaste1, .senaste2{
+background-color: whitesmoke;
+}
+.phone_img, .ai_img{
+height: 18rem;
+padding: 1rem;
 }
 @media screen and (max-width:600px){
 #wrapper{
@@ -146,6 +162,29 @@ padding: 1rem 0rem 2rem 3rem;
 }
 h3{
 font-size: 2rem;
+}
+#apple_vision_nyhet{
+    width:100%;
+    padding: 2rem 0rem 0rem 0rem;
+}
+h5{
+ font-size: 2.5rem;
+}
+p{
+font-size: 1.5rem;
+}
+.senaste, .senaste1, .senaste2{
+width: 32rem;
+height: 35rem;
+display:block;
+}
+.ai_img{
+width: 30rem;
+height: auto;
+}
+.phone_img{
+width: 30rem;
+height:auto;
 }
 #hamburger{
     position:absolute;
